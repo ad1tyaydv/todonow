@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 
-const API_URL = import.meta.env.BACKEND;
+const API_URL = import.meta.env.VITE_BACKEND;
 
 function App() {
 
